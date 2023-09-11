@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&family=Oswald:wght@400;500;700&display=swap");
+/*-----------
+  RESET
+------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*-----------
+  GENERAL
+------------*/
+body {
+  margin: 0.375rem;
+}
+.container {
+  max-width: 75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-small {
+  max-width: 64rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-wrapper {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+
+/*-----------
+  BUTTONS
+------------*/
+.btn {
+  background-color: #e41b00;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+/*-----------
+  TYPO
+------------*/
+body {
+  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+  background-color: #e5e5e5;
+}
+
+/*-----------
+  FORM ELEMENS
+------------*/
+input {
+  border: 1px solid #ddd;
+  padding: 0.625rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+/*-----------
+  HEADER
+------------*/
+header {
+  text-align: center;
+  background-color: #fff;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+header > *:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+/*-----------
+  WISHLIST
+------------*/
+.wishlist {
+  background-color: #007c02;
+  color: #fff;
+  padding: 1.25rem;
+}
+.wishlist ul {
+  list-style: none;
+}
+
+.wishlist ul li {
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wishlist ul li button {
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+.wishlist ul li:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
